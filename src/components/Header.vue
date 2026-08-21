@@ -98,7 +98,7 @@ button {
 
 
 header{
-    max-width: 1416px;
+    max-width: 1440px;
     background: white;
     padding: 8px 24px;
 
