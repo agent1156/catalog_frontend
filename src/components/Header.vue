@@ -115,6 +115,7 @@ header{
 }
 .head_top_cont{
     display: flex;
+    justify-content: space-around;
 }
 .head_top_cont_img{
     width: 140px;
@@ -124,16 +125,17 @@ header{
     display: flex;
 }
 .head_top_cont_search_block_inpup{
-    width: 422px;
+       width: 422px;
     display: block;
     /* margin: 0px 14px; */
-    padding: 10px;
+    padding: 3px;
     border-radius: 7px;
     background: rgb(255 255 255);
     border: 0px solid #005bff;
-    color:black;
-   
+    color: black;
 }
+   
+
 .head_top_cont_search_block_inpup:focus {
     border: none;
     outline: none; 
