@@ -107,7 +107,7 @@ const getOldPrice = (product) => {
     if (product.offers && product.offers.length > 0) {
         return Number(product.offers[0].old_price) || null
     }
-    return Number(product.old_price) || null
+    return Number(product.old_price) || null    
 }
 
 const getDiscount = (product) => {
